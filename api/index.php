@@ -10,7 +10,7 @@ define('GITVIZ_LOG_FILE', GITVIZ_LOG_PATH . '/tmp/gitviz-' . date('Y-m-d') . '_'
 define('GITVIZ_DEBUG', false);
 
 define('GITVIZ_CACHE_DURATION', 300); // 缓存持续时间（秒）
-define('GITVIZ_RATE_LIMIT_DURATION', 30); // 频率限制时间窗口（秒）
+define('GITVIZ_RATE_LIMIT_DURATION', 10); // 频率限制时间窗口（秒）
 define('GITVIZ_RATE_LIMIT_MAX_REQUESTS', 5); // 频率限制最大请求数
 define('GITVIZ_CACHE_PATH', '/tmp/cache');
 
